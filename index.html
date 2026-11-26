@@ -323,7 +323,7 @@ padding:14px 16px;border-bottom:1px solid var(--line);
 .notify-modal-head h4{margin:0;font-size:15px;font-weight:800;}
 .notify-modal-head .close-x{cursor:pointer;font-size:18px;color:var(--text-sub);background:none;border:none;}
 .notify-modal-body{padding:16px;text-align:center;}
-.notify-modal-body img{width:100%;height:auto;border-radius:10px;display:block;margin-bottom:12px;background:#f2f2f2;}
+.notify-modal-body img{width:100%;aspect-ratio:1200/749;object-fit:cover;border-radius:10px;display:block;background:#f2f2f2;}
 .notify-modal-body .placeholder{
 padding:30px 10px;color:var(--text-sub);font-size:13.5px;
 border:1.5px dashed var(--line);border-radius:10px;margin-bottom:12px;
@@ -337,7 +337,9 @@ background:none;border:none;cursor:pointer;padding:6px 0;
 .dday-box{
 background:linear-gradient(135deg,#fff0f4,#eef7ff);
 border-radius:14px;
-padding:28px 16px 24px;
+padding:0 16px;
+aspect-ratio:1200/749;
+display:flex;flex-direction:column;align-items:center;justify-content:center;
 }
 .dday-heart{font-size:26px;margin-bottom:6px;}
 .dday-count{
