@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
 <title>가게 리뷰 게시판</title>
 
 <!-- =========================================================
@@ -555,7 +556,8 @@ notifyImage: "5.jpeg",
   
 menu: [
 { name: "도훈이 사랑", desc: "대표 메뉴", price: "228 point" },
-{ name: "콕 찌르기", desc: "", price: "908 point" },
+{ name: "콕 찌르기 네 번", desc: "", price: "908 point" },
+{ name: "형 먼저 끊어", desc: "", price: "404 point" },
 { name: "나 왜 이 순간이 영원할 것 같지", desc: "", price: "환산 불가" },
 ],
 
@@ -583,17 +585,7 @@ items: [
 
 
 // 처음에 보여줄 기본 리뷰 (Firebase에 아직 저장된 리뷰가 하나도 없을 때만 표시됨)
-seedReviews: [
-{
-name: "doh***",
-meta: "리뷰 404 · 사진 228",
-rating: 5,
-visit: "☀️ 아침에 방문 · 예약 없이 이용 · 대기 시간 바로 입장 · 일상 · 혼자",
-text: "테스트",
-tags: ["💗 사랑이 넘쳐요", "💊 보고 싶어요", "🔥 마음이 활활 타요"],
-dateLabel: "9.10.목 · 1번째 방문 · 영수증"
-}
-],
+seedReviews: [],
   
 homePreviewCount: 2, // 홈 화면에 미리 보여줄 리뷰 개수
 
