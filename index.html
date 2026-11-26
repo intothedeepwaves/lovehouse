@@ -701,11 +701,9 @@ return `
 <div class="avatar">${initials(r.name)}</div>
 <div class="review-user">
 <div class="name">${r.name}</div>
-<div class="sub">${r.meta || ""}</div>
 </div>
 </div>
 <div class="stars">${starString(r.rating)}</div>
-${r.visit ? `<div class="visit-line">${r.visit}</div>` : ""}
 <div class="review-text">${r.text}</div>
 <div class="review-tags">${(r.tags||[]).map(t => `<div class="chip">${t}</div>`).join('')}</div>
 <div class="review-footer">
